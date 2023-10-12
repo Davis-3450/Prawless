@@ -10,5 +10,5 @@ class DataNotFoundException(RedditWrapperException):
 class RateLimitException(RedditWrapperException):
     """Raised when the rate limit is exceeded."""
 
-class BannedException(RedditWrapperException):
+class EntityBannedException(RedditWrapperException):
     """Raised when the user is banned from the subreddit."""
