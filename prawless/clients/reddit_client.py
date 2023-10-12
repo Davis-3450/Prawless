@@ -9,7 +9,7 @@ class RedditHTTPClient:
     """An HTTP client for interacting with the Reddit API."""
 
     BASE_URL = "https://www.reddit.com"
-    USER_AGENT = "prawless:v0.1 (by /u/user)"
+    USER_AGENT = "prawless:v0.1 (by /u/user)" # TODO: implement random user agents,  this is just a placeholder for now.
 
     def __init__(self, proxy: dict = None):
         """
